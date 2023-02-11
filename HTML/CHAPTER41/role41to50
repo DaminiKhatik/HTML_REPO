@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLE</title>
+</head>
+<body>
+    <h1>ROLE sub section 41 to 50</h1>
+    <br>
+    <h3>role="radio"</h3>
+    <div role="radiogroup">
+        <input role="radio" type="radio" aria-checked="true"> One<br>
+        <input role="radio" type="radio" aria-checked="false"> Two<br>
+        <input role="radio" type="radio" aria-checked="false"> Three
+       </div>
+    <br>
+
+    <h3>role="region"</h3>
+    <div role="region">
+        Home team: 4<br>
+        Away team: 2
+       </div>
+    <br>
+    <h3> role="radiogroup"</h3>
+    <div role="radiogroup">
+        <input role="radio" type="radio" aria-checked="true"> One<br>
+        <input role="radio" type="radio" aria-checked="false"> Two<br>
+        <input role="radio" type="radio" aria-checked="false"> Three
+       </div>
+    <br>
+    <h3>role="row"</h3>
+    <table>
+        <thead>
+        <!-- etc -->
+        </thead>
+        <tbody>
+        <tr role="row">
+        <!-- etc -->
+        </tr>
+    </tbody>
+    <br>
+    <h3>role="rowgroup"</h3>
+    <table>
+        <thead role="rowgroup">
+        <!-- etc -->
+        </thead>
+        <tbody role="rowgroup">
+        <!-- etc -->
+        </tbody>
+       </table>
+    <br>
+    <h3>role="rowheader"</h3>
+    <table role="grid">
+        <thead>
+        <!-- etc -->
+        </thead>
+        <tbody>
+        <tr>
+        <th role="rowheader">Day 1</th>
+        <td>65</td>
+        </tr>
+        <tr>
+        <th role="rowheader">Day 2</th>
+        <td>74</td>
+        </tr>
+        </tbody>
+       </table>
+    <br>
+
+    <h3>role="scrollbar"</h3>
+    <div id="content1">Lorem ipsum...</div>
+<div
+ role="scrollbar"
+ aria-controls="content1"
+ aria-orientation="vertical"
+ aria-valuemax="100"
+ aria-valuemin="0"
+ aria-valuenow="25">
+ <div class="scrollhandle"></div>
+</div>
+
+    <br>
+    <h3> role="search"
+    </h3>
+    <div role="search">
+
+         <input role="searchbox" type="text">
+         <button role="button">Search</button>
+        </div>
+    <br>
+    <h3>role="searchbox"</h3>
+    <div role="search">
+        <input role="searchbox" type="text">
+        <button role="button">Search</button>
+       </div>
+    <br>
+
+    <h3>: role="separator"</h3>
+    <p>Lorem ipsum...</p>
+<hr role="separator">
+<p>Lorem ipsum...</p>
+    <br>
+</body>
+</html>
